@@ -8,7 +8,7 @@ function wrapping(sGift) {
     l0 = sGift.length	
     for( j=0; j<l0; j++){
         myGift = sGift[j]
-        myGift = "\n*" + myGift + "*\n"
+        myGift = "\r\n*" + myGift + "*\r\n"
         l = myGift.length - 2
         for( i=0; i<l; i++){
             myGift="*"+myGift+"*"
